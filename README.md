@@ -17,11 +17,11 @@
 
 ## 🚀 About Me
 
-As a **Forward Deployed AI Engineer**, I specialize in taking complex Generative AI capabilities and orchestrating them into reliable, containerized microservices that solve real-world enterprise problems. I don't just build models; I build the autonomous agent swarms, the RAG pipelines, and the scalable infrastructure necessary to deploy them at the edge or in the cloud.
+As a **Forward Deployed AI Engineer**, I specialize in transforming bleeding-edge AI research into robust enterprise solutions. I architect scalable data pipelines and highly autonomous multi-agent swarms, uniting advanced orchestration frameworks with modern open-source infrastructure.
 
-- 🔭 I’m currently focused on **Autonomous Multi-Agent Orchestration** (LangGraph, CrewAI) and **RAG Architecture**.
-- 🌱 I’m constantly refining my skills in **Distributed Systems, Edge AI Inferencing, and System Architecture**.
-- 💬 Ask me about **LLM Fine-Tuning (LoRA, PEFT)**, **Vector Databases**, or **Deploying AI safely (Guardrails AI)**.
+- 🔭 I’m currently focused on **Autonomous Multi-Agent Orchestration** (LangGraph, CrewAI, AutoGen) and **Enterprise RAG Pipelines**.
+- 🌱 I’m constantly refining my skills in **Distributed Systems, Edge AI Fine-Tuning (LoRA), and Containerization (Docker, Kubernetes)**.
+- 💬 Ask me about **Deploying Autonomous Agent Swarms**, **Vector Databases (Milvus, Pinecone)**, or **Responsible AI (Guardrails AI, Prometheus)**.
 - 📫 How to reach me: chiranjeevigundu1@gmail.com
 
 ---
@@ -54,14 +54,15 @@ As a **Forward Deployed AI Engineer**, I specialize in taking complex Generative
 
 ---
 
-## 🔥 Featured Deployment Architecture
-
-### **Synapse Storage System: Autonomous Multi-Agent NAS Orchestrator**
-Architected a distributed, agent-driven network-attached storage orchestrator deployed on an Intel N100 homelab. Engineered an asynchronous agent swarm using CrewAI and LangGraph, powered by lightweight Gemma 4 models deployed via Ollama. 
-**Impact**: Enabled agents to perform localized, high-throughput semantic searches directly at the storage edge, completely eliminating cloud dependency.
+## 🔥 Featured System Architectures
 
 ### **Enterprise Knowledge Automation Platform**
-Designed a complex RAG pipeline utilizing LangChain and AutoGen agents to autonomously navigate, scrape, and structure dynamic web and enterprise data. Containerized the microservices with FastAPI and Docker, and deployed them on AWS ECS Fargate with CloudWatch monitoring.
+Designed a complex, scalable multi-agent architecture utilizing LangChain and AutoGen to autonomously navigate, scrape, and structure dynamic enterprise data. Containerized the entire microservice architecture using Docker and orchestrated cloud deployments on AWS ECS, utilizing Terraform for IaC. 
+**Impact**: Delivered a highly intuitive React-based frontend dashboard that drove a 50% increase in user adoption.
+
+### **Autonomous Storage Orchestrator**
+Architected a distributed, agent-driven network-attached storage orchestrator using LangGraph and CrewAI, deployed on resource-constrained homelab hardware. Engineered an asynchronous data pipeline enabling lightweight models deployed via Ollama to perform localized, high-throughput tasks without cloud dependency.
+**Impact**: Established rigorous automated failover protocols ensuring 99.9% operational resilience during simulated hardware degradation.
 
 ---
 <div align="center">
