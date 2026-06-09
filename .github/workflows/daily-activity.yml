@@ -1,0 +1,40 @@
+name: Daily Profile Activity Sync
+
+on:
+  schedule:
+    - cron: '0 10 * * *' # Runs daily at 10:00 UTC (3:00 AM PST)
+  workflow_dispatch: # Allows manual triggering from the GitHub Actions tab
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update Activity Log
+        run: |
+          DATE=$(date +'%Y-%m-%d %H:%M:%S UTC')
+          echo "- Updated profile activity sync at $DATE." >> activity.md
+          
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "Chiranjeevi Gundu"
+          git config --global user.email "chiranjeevigundu1@gmail.com"
+          
+          # Choose a random commit message to make it look human
+          messages=(
+            "docs: update activity log"
+            "chore: sync profile activity"
+            "docs: sync development log"
+            "chore: update profile telemetry"
+            "docs: update readme active status"
+            "chore: minor readme maintenance"
+          )
+          commit_msg=${messages[$RANDOM % ${#messages[@]}]}
+          
+          git add activity.md
+          git commit -m "$commit_msg"
+          git push

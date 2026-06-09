@@ -48,6 +48,8 @@ As a **Forward Deployed AI Engineer**, I specialize in transforming bleeding-edg
 
 ### **Generative AI & Agentic Frameworks**
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF4500?style=flat)
 ![vLLM](https://img.shields.io/badge/vLLM-FF6F00?style=flat)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
